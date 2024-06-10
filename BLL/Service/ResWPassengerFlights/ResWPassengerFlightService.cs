@@ -26,18 +26,23 @@ namespace BLL.Service.ResWPassengerFlights
 
         public ApiResponse<ResWPassengerFlightdto> ResWResWPassengerFlight(ResWPassengerFlightdto dto)
         {
-            ApiResponse<ResWPassengerFlightdto> response = new ApiResponse<ResWPassengerFlightdto>();
-            return response;
-            try
-            {
-
-                
-            }
-            catch (Exception ex)
-            {
-
-            }
-            
+            throw new NotImplementedException();
         }
+
+        /*        public ApiResponse<ResWPassengerFlightdto> ResWResWPassengerFlight(ResWPassengerFlightdto dto)
+                {
+                    ApiResponse<ResWPassengerFlightdto> response = new ApiResponse<ResWPassengerFlightdto>();
+                    return response;
+                    try
+                    {
+
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+
+                }*/
     }
 }
