@@ -18,9 +18,5 @@ namespace BLL.DTO
         public string? SeatNumber { get; set; }
 
         public DateTime? ReservationDate { get; set; }
-
-        public virtual Flight? Flight { get; set; }
-
-        public virtual Passenger? Passenger { get; set; }
     }
 }
