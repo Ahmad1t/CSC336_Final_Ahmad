@@ -15,6 +15,7 @@ namespace BLL.Mapping
         {
             CreateMap<Airplane, Airplanedto>().ReverseMap();
             CreateMap<Passenger, Passengerdto>().ReverseMap();
+            CreateMap<Flight, Flightdto>().ReverseMap();
         }
     }
 }
