@@ -1,4 +1,5 @@
 ﻿using BLL.Mapping;
+using AutoMapper;
 namespace CSC336_Final.Extensions
 {
     public static class AutoMapperExtensions

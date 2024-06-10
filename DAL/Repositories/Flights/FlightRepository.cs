@@ -12,6 +12,7 @@ namespace DAL.Repositories.Flights
     {
         public FlightRepository(AirplaneSystemContext airplaneSystemContext) : base(airplaneSystemContext)
         {
+
         }
     }
 }

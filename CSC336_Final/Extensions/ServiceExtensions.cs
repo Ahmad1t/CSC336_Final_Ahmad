@@ -3,6 +3,7 @@ using BLL.Service.Flights;
 using BLL.Service.Passengers;
 using BLL.Service.Pilots;
 using BLL.Service.Reservations;
+using BLL.Service.ResWPassengerFlights;
 using DAL.Models;
 
 namespace CSC336_Final.Extensions
@@ -16,6 +17,7 @@ namespace CSC336_Final.Extensions
             service.AddScoped<IFlightService, FlightService>();
             service.AddScoped<IPilotService, PilotService>();
             service.AddScoped<IReservationService, ReservationService>();
+            service.AddScoped<IResWPassengerFlightSerive, ResWPassengerFlightService>();
             return service;
         }
     }
